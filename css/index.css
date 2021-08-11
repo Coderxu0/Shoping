@@ -1,0 +1,244 @@
+/* main模块 */
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.w .main .focus {
+    float: left;
+    width: 721px;
+    height: 100%;
+    position: relative;
+}
+
+.w .main .newsflash {
+    float: right;
+    width: 255px;
+    height: 100%;
+}
+
+.w .main .focus ul li .left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -20px;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, .5);
+    color: white;
+    font-size: 20px;
+}
+
+.w .main .focus ul li .right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, .5);
+    color: white;
+    font-size: 20px;
+}
+
+.w .main .focus ul li a:hover {
+    color: #c81623;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.news-hd {
+    height: 33px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    line-height: 33px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    padding-left: 30px;
+}
+
+.more {
+    float: right;
+}
+
+.news-bd ul li {
+    padding: 6px 0 0 8px;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid rgb(204, 204, 204);
+    border-top: transparent;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border: 1px solid rgb(204, 204, 204);
+    border-top: transparent;
+    border-left: transparent;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../image/icons.png) no-repeat -19px -15px;
+}
+
+.lifeservice ul li:nth-child(4n) {
+    border-right: transparent;
+}
+
+.jian {
+    position: relative;
+}
+
+.jian img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bargin {
+    margin-top: 5px;
+}
+
+
+/* recom模块 */
+
+.recom {
+    height: 160px;
+    margin-top: 12px;
+}
+
+.recom .recom_hd {
+    float: left;
+    height: 100%;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom .recom_hd p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #f9f9f9;
+}
+
+.recom .recom_bd {
+    float: left;
+    height: 100%;
+    width: 995px;
+}
+
+.recom .recom_bd ul li {
+    float: left;
+}
+
+.recom .recom_bd ul li img {
+    height: 160px;
+    width: 248px;
+}
+
+
+/* 电梯模块 */
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.box_hd .tab_list {
+    float: right;
+}
+
+.box_hd ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.box_hd ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #ADADAD;
+    margin: 10px 10px 0 10px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item li {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin: 0 7px;
+}
+
+.col_329 {
+    width: 329px;
+    height: 361px;
+}
+
+.col_221 {
+    width: 221px;
+    height: 361px;
+}
+
+.col_221 {
+    width: 221px;
+    height: 361px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+    height: 361px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

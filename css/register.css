@@ -1,0 +1,118 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 2px solid #c81623;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 43px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 43px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.registerarea h3 a {
+    display: block;
+    float: right;
+    font-size: 13px;
+}
+
+.registerarea h3 a span {
+    color: #c81623;
+    margin-right: 20px;
+}
+
+.rg_form {
+    width: 600px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.rg_form li {
+    margin: 20px 0;
+}
+
+.rg_form label {
+    display: inline-block;
+    text-align: right;
+    font-size: 15px;
+    width: 100px;
+}
+
+.rg_form .inp {
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 250px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.safe em {
+    padding: 0 12px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.rg_form ul .agree {
+    margin-top: 70px
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree a {
+    color: skyblue;
+}
+
+.submit input {
+    width: 130px;
+    height: 23px;
+    background-color: #c81623;
+    line-height: 23px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.md_copyright {
+    text-align: center;
+}
+
+.md_copyright {
+    padding-top: 20px;
+}
+
+.md_copyright .copyright {
+    padding-top: 15px;
+}
+
+.footer .w .md_copyright .links a {
+    margin: 0 3px;
+}
